@@ -1,50 +1,3 @@
-/*import React, { useEffect, useState } from "react";
-import CloudSvg from '../media/Cloud'
-
-let otherDaysWeather = [
-    {id: 170123, day: 'Вівторок', date: '17.01', temperature: '5'},
-    {id: 180123, day: 'Середа', date: '18.01', temperature: '3'},
-    {id: 190123, day: 'Четвер', date: '19.01', temperature: '8'},
-    {id: 200123, day: "П'ятниця", date: '20.01', temperature: '7'},
-    {id: 210123, day: 'Субота', date: '21.01', temperature: '1'},
-    {id: 220123, day: 'Неділя', date: '22.01', temperature: '1'},
-    {id: 230123, day: 'Понеділок', date: '23.01', temperature: '1'}
-]
-
-
-function otherDays() {
-
-    fetch('https://jsonplaceholder.typicode.com/todos/')
-    .then(response => response.json())
-    .then(data => { 
-        return (
-            <div className="section" key = "{item.id}">
-              <div className="other-days">
-                  {
-                      data.map(item => 
-                          <div className="other-days__card">
-                              <h1 className="card-day">{item.title}</h1>
-                              <h1 className="card-date">{item.id}</h1>
-                              <div className="card-weather-svg">
-                                  <CloudSvg/>
-                              </div>
-                              <div className="card-temperature">
-                                  <h1 className="card-temperature__num"></h1>
-                                  <h1 className="card-temperature__symbol">°</h1>
-                              </div>
-                          </div>
-                      )
-                  }
-              </div>
-            </div>
-                );}
-        )
-    .catch(error => console.error(error))
-    
-  }
-  
-  export default otherDays;
-  */
 
 import React, { useEffect, useState } from "react";
 import ThisDay from './thisDay'
@@ -112,20 +65,6 @@ function OtherDays(props) {
    
 
 
-            {/* {[data].map((item,index) => (
-              <div className="other-days__card" key={index}>
-                <h1 className="card-day">{item.name}</h1>
-                <h1 className="card-date">{item.id}</h1>
-                <div className="card-weather-svg">
-                    <CloudSvg/>
-                </div>
-                <div className="card-temperature">
-                  <h1 className="card-temperature__num"></h1>
-                  <h1 className="card-temperature__symbol">°</h1>
-                </div>
-              </div>
-            ))} */}
-
-    }
+         
     
     export default OtherDays;
