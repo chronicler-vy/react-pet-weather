@@ -1,0 +1,196 @@
+.App {
+  text-align: center;
+  background: radial-gradient(50% 50% at 50% 50%, #5298F0 0%, #008EFF 100%);
+}
+.weather-app {
+  background: radial-gradient(50% 50% at 50% 50%, #5298F0 0%, #008EFF 100%);
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.section {
+  max-width: 1440px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.weather-search {
+  background-color: rgba(255,255,255,0.14);
+  width: 40%;
+  margin:auto;
+  border-radius: 5px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-search form {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-search button {
+  border: 0;
+  background-color: white;
+  color: #008DFE;
+  font-size: 14px;
+  width: 15%;
+  border-radius: 3px;
+}
+
+.weather-search input {
+  padding-left: 10px;
+  width:70%;
+  border: 0;
+  border-bottom: 2px solid rgba(255,255,255,0.50);
+  background-color: rgba(255,255,255,0);
+  height: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input:focus {
+  outline: none;
+}
+
+.thisDay-card {
+
+  width: 30%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.14);
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.min-max-temperature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.min-temperature {
+  padding-right: 50px;
+}
+
+.weather-description {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.thisDay-card .date {
+  font-weight: 200;
+}
+
+.main-temperature-num {
+  font-size: 100px;
+}
+
+.main-temperature-symbol {
+  text-align: start;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.main-temperature {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.other-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.other-days__card {
+  background-color: rgba(255,255,255,0.14);
+  border-radius: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 180px;
+  text-align: center;
+  color:white;
+}
+
+.card-day {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.card-date {
+  font-weight: 200;
+  font-size: 19px;
+}
+.card-temperature {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card-temperature__num {
+  margin:0;
+  font-size: 30px;
+  font-weight: 800;
+
+}
+
+.card-temperature__symbol {
+  margin:0;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+.card-weather-svg svg {
+  height: 40px;
+}
+.card-weather-svg {
+  margin-bottom: 10px;
+}
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
